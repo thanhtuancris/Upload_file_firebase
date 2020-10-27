@@ -1,0 +1,29 @@
+{
+  "name": "Upload_file_firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhtuancris/Upload_file_firebase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhtuancris/Upload_file_firebase/issues"
+  },
+  "homepage": "https://github.com/thanhtuancris/Upload_file_firebase#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.3.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.3.0",
+    "multer": "^1.4.2",
+    "uuid-v4": "^0.1.0"
+  }
+}
